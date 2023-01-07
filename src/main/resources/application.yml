@@ -1,0 +1,27 @@
+server:
+  error:
+    include-stacktrace: on_param
+
+spring:
+  application:
+    name: animeAPI
+  datasource:
+    url: jdbc:postgresql://localhost:5432/anime?createDatabaseIfNotExist=true
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, metrics, prometheus
