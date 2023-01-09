@@ -12,8 +12,8 @@
     <groupId>tech.noetzold</groupId>
     <artifactId>anime-api-test-poc</artifactId>
     <version>0.0.2-SNAPSHOT</version>
-    <name>springboot2-essentials</name>
-    <description>Curso de Spring Boot do DevDojo</description>
+    <name>nime-api-test-poc</name>
+    <description></description>
 
     <properties>
         <java.version>11</java.version>
