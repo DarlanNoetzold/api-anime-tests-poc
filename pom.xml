@@ -12,7 +12,7 @@
     <groupId>tech.noetzold</groupId>
     <artifactId>anime-api-test-poc</artifactId>
     <version>0.0.2-SNAPSHOT</version>
-    <name>nime-api-test-poc</name>
+    <name>anime-api-test-poc</name>
     <description></description>
 
     <properties>
@@ -21,10 +21,6 @@
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <springdoc-openapi-ui.version>1.4.8</springdoc-openapi-ui.version>
         <jib-maven-plugin.version>2.6.0</jib-maven-plugin.version>
-        <docker.distroless.image>gcr.io/distroless/java:11</docker.distroless.image>
-        <docker.repo.url>williamsuane</docker.repo.url>
-        <docker.repo.project>springboot2-essentials</docker.repo.project>
-        <docker.image.name>${docker.repo.url}/${docker.repo.project}</docker.image.name>
     </properties>
 
     <dependencies>
